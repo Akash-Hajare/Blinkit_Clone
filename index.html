@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blinkit</title>
+    
+   
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="slides.css">
+    <link rel="stylesheet" href="faq.css">
+    <link rel="stylesheet" href="name.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="nav">
+        <img src="blinkit_logo.webp" alt="logo" class="logo">
+        <div class="nav-right">
+            <a href="#" class="nav-items" id="lang" onclick="displayList()">
+                <span id="currentLang">English</span> 
+                <span class="material-symbols-outlined" id="drop">
+                    arrow_drop_down
+                </span>
+                <ul class="list-items" id="list-items">
+                    <li id="langOpt" onclick="changeLang()">Hindi</li>
+                    <li id="langOpt" onclick="changeLang()">Marathi </li>
+                    <li id="langOpt" onclick="changeLang()">Telgu</li>
+                    <li id="langOpt" onclick="changeLang()">Punjabi</li>
+                    <li id="langOpt" onclick="changeLang()">Bangali</li>
+                </ul>
+            </a>
+            <a href="#" class="nav-items" id="nav-items-others">Home</a>
+            <a href="#" class="nav-items" id="nav-items-others">About us</a>
+            <a href="#" class="nav-items" id="nav-items-others">Careers</a>
+            <a href="#" class="nav-items" id="nav-items-others">Partners</a>
+            <a href="#" class="nav-items" id="nav-items-others">Blog</a>
+            <span>
+                <a href="#" onclick="displayMenu()">
+                    <span class="material-symbols-outlined" id="menu-icon">
+                        menu
+                    </span>
+                </a>
+                <div class="menu" id="menu">
+                    <span class="material-symbols-outlined" id="close" onclick="closeMenu()">
+                        close
+                        </span>
+                    <section class="menu-item-top">
+                        <a href="#" id="menu-item-top">Lead</a>
+                        <a href="#" id="menu-item-top">Value</a>
+                        <a href="#" id="menu-item-top">Press</a>
+                        <a href="#" id="menu-item-top">Security</a>
+                        <a href="#" id="menu-item-top">Privacy</a>
+                        <a href="#" id="menu-item-top">Terms</a>
+                        <a href="#" id="menu-item-top">FAQ</a>
+                        <a href="#" id="menu-item-top">Mobile</a>
+                        <a href="#" id="menu-item-top">Contact</a>
+                        <a href="#" id="menu-item-top">Express</a>
+                        <a href="#" id="menu-item-top">Seller</a>
+                        <a href="#" id="menu-item-top">Spotlight</a>
+                        <a href="#" id="menu-item-top">Wearhouse</a>
+                        <a href="#" id="menu-item-top">Deliver</a>
+                    </section>
+                    <section class="menu-item-mid">
+                        <h2>Follow Us</h2>
+                        <div class="socal-media">
+                            <a href="">
+                                <img src="instagram.png" alt="instagram" id="social-logo">
+                            </a>
+                            <a href="">
+                                <img src="fb.png" alt="fb" id="social-logo">
+                            </a>
+                            <a href="">
+                                <img src="yt1.png" alt="yt" id="social-logo" >
+                            </a>
+                            <a href="">
+                                <img src="twitter.png" alt="twitter" id="social-logo">
+                            </a>
+                        </div>
+                    </section>
+                    <section class="menu-item-bottom">
+                        <p>By continuing past this page you agree to our Terms, Cookie policy and Privacy policy. All trademarks are properties of their respective owners. © Blink Commerce Private Limited (formerly known as Grofers India Private Limited), 2016-2022</p>
+                    </section>
+                </div>
+            </span> 
+        </div>
+        
+    </section>
+
+    <section class="mid">
+        <div class="mid-left">
+          <img src="warehouse-desktop-masthead (1).webp" alt="Wearhouse" id="warehouse">
+          <h1>Warehouse partner</h1>
+          <h3>Pick, pack and sort orders placed by our customers</h3>
+        </div>
+        <div class="mid-right">
+           <div class="form">
+            <div class="form-top">
+                <h2>Come bring orders to life</h2>
+                <h4>Earn more with a job in our warehouse</h4>
+            </div>
+            <div class="form-body">
+                <section class="form-body-ele">
+                    <input type="text" placeholder="your full name" id="input-ele">
+                    <input type="text" placeholder="phone number" id="input-ele">
+                </section>
+                <section class="form-body-ele">
+                    <input type="text" placeholder="city" id="input-ele">
+                    <input type="text" placeholder="state" id="input-ele">
+                </section>
+                <section class="form-body-ele">
+                    <input type="text" placeholder="highest education" class="input-education" id="input-ele">
+                </section>
+                <section class="form-body-ele">
+                    <button  class="input-ele-btn">register</button>
+                    <button  class="input-ele-btn">reset all details</button>
+                </section>
+            </div>
+           </div>
+        </div>
+    </section>
+   
+    <section class="about">
+        <div class="info">
+            <h2>Join India’s most loved grocery shopping platform</h2>
+            <p>Become a warehouse partner and get best in class pay, plus benefits like nutritious meals, transportation facility, provident fund – in addition to salary, medical insurance coverage and 14 days paid leaves for Covid</p>
+            <div class="info-cards" id="grid-container">
+                    <div class="info-cards-left" id="item-1" >
+                    <a href="https://www.youtube.com/watch?v=Of7gJBrm3eU&t=8s">
+                        <img src="yt-card.webp" alt="yt-video" >
+                    </a>
+                    </div>
+                    <div id="info-cards" class="info-items">
+                        <img src="card-1.webp" alt="card">
+                        <h4>₹25,000 salary</h4>
+                    </div>
+                    <div id="info-cards" class="info-items">
+                        <img src="card-2.webp" alt="card">
+                        <h4>9 hour shift</h4>
+                    </div>
+                    <div id="info-cards" class="info-items">
+                        <img src="card-3.webp" alt="card">
+                        <h4>Transportation</h4>
+                    </div>
+                    <div id="info-cards" class="info-items">
+                        <img src="card-4.webp" alt="card">
+                        <h4>Medical insurance</h4>
+                    </div>  
+            </div>
+        </div>
+
+        <div class="slides">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol> -->
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="slides-items">
+        <img src="s1.webp" alt="Slide 1" id="slides-img">
+        <div class="carousel-caption"  >
+            <h3>Ronank Dhanuk</h3>
+          <p id="para">Ever since I have joined blinkit, I make good money and I can see my progress in life.I am happy</p> 
+        </div>
+      </div>
+      <div class="carousel-item" id="slides-items">
+        <img src="s2.webp" alt="Slide 2" id="slides-img">
+        <div class="carousel-caption" >
+          <h3>Durga Bose</h3>
+          <p id="para">Working in the Blinkit warehouse is a great opportunity in these times. We take safety precautions seriously, get transportation services and also make a good salary every month</p>
+        </div>
+      </div>
+      <div class="carousel-item" id="slides-items">
+        <img src="s3.webp" alt="Slide 3" id="slides-img">
+        <div class="carousel-caption">
+          <h3>SK Miraj</h3>
+          <p id="para">We can choose our shift, get training on safety protocols because of COVID, maintain distance and hygiene and have temperature checks everyday for the last one year. Also, the money is good </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+        </div>
+        <div class="faq">
+            <h2>Frequently asked questions</h2>
+            <div class="faq-quetion">
+                <section class="question" onclick="toggleMenu(this)">
+                    <span>Are there any specific requirements to become a Blinkit warehouse partner?
+                    </span>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </section>
+                <section class="question-menu" >
+                    <span>Yes, here’s a quick list for your reference:</span>
+                    <ul>
+                      <li>you must be at least 18 years old</li>
+                      <li>minimum education qualification – 10th pass certificate</li>
+                      <li>basic English reading/writing skills</li>
+                      <li>copy of Aadhaar card & PAN card </li>
+                      <li>valid bank account</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="faq-quetion">
+                <section class="question" onclick="toggleMenu(this)">
+                    <span>What are the benefits of working in a Blinkit warehouse?
+                    </span>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </section>
+                <section class="question-menu" >
+                    <span>In addition to earning upto ₹25000 per month, you also get one nutritious meal per shift, medical insurance coverage, plus Provident Fund in addition to the salary. We also offer 14 days paid leave for Covid</span>
+                    
+                </section>
+            </div>
+            <div class="faq-quetion">
+                <section class="question" onclick="toggleMenu(this)">
+                    <span>What is the duration of the work-shifts?
+                    </span>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </section>
+                <section class="question-menu">
+                    <span>We operate through two work shifts, day and night, each of which has a 9-hour work duration</span>
+                    
+                </section>
+            </div>
+            <div class="faq-quetion">
+                <section class="question" onclick="toggleMenu(this)">
+                    <span>Is there any special bonus for working in the night shift?
+                    </span>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </section>
+                <section class="question-menu">
+                    <span>
+                        Yes, we do offer an additional night allowance to the employees working in the night shift
+                    </span>
+                    
+                </section>
+            </div>
+            <div class="faq-quetion">
+                <section class="question" onclick="toggleMenu(this)">
+                    <span>
+                        Are there any other incentives included apart from the salary?
+                    </span>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </section>
+                <section class="question-menu">
+                    <span>
+                        Yes, we offer a range of incentives based on various factors like performance, attendance, etc. We can share more information on this at the time of your interview
+                    </span>
+                    
+                </section>
+            </div>
+            <div class="faq-quetion">
+                <section class="question" onclick="toggleMenu(this)">
+                    <span>
+                        Is there any on-the-job training involved?
+                    </span>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </section>
+                <section class="question-menu">
+                    <span>
+                        Yes, once you join us, you will be enlisted for an in-house training program depending upon the process (Inbound, Inventory or Outbound) and the role that you have been selected for
+                    </span>
+                    
+                </section>
+            </div>
+            <div class="faq-quetion">
+                <section class="question" onclick="toggleMenu(this)">
+                    <span>
+                        Do we receive any documentation at the time of joining?
+                    </span>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </section>
+                <section class="question-menu">
+                    <span>
+                        Yes, you will receive an appointment letter at the time of your joining
+                    </span>
+                    
+                </section>
+            </div>
+            <div class="faq-quetion">
+                <section class="question"onclick="toggleMenu(this)">
+                    <span>
+                        What is the mode of payment?
+                    </span>
+                    <span class="material-symbols-outlined">
+                        arrow_drop_down
+                    </span>
+                </section>
+                <section class="question-menu">
+                    <span>
+                        Your salary will be transferred directly into your bank account on a monthly basis
+                    </span>
+                    
+                </section>
+            </div>
+        </div>      
+         
+        <div class="name-fields">
+            <section class="fields" id="top-field">
+                <h6>#1 instant delivery service in India</h6>
+                <p>Shop on the go and get anything delivered in minutes. Buy everything from groceries to fresh fruits & vegetables, cakes and bakery items, to meats & seafood, cosmetics, mobiles & accessories, electronics, baby care products and much more. We get it delivered at your doorstep in the fastest and the safest way possible.</p>
+            </section>
+            <section class="fields">
+                <h6>single app for all your daily needs</h6>
+                <p>Order thousands of products at just a tap - milk, eggs, bread, cooking oil, ghee, atta, rice, fresh fruits & vegetables, spices, chocolates, chips, biscuits, Maggi, cold drinks, shampoos, soaps, body wash, pet food, diapers, electronics, other organic and gourmet products from your neighbourhood stores and a lot more.</p>
+            </section>
+            <section class="fields">
+                <h6>order online on Blinkit to enjoy instant delivery magic</h6>
+                <p>Cities we currently serve: Ahmedabad, Bengaluru, Chandigarh, Chennai, Delhi, Faridabad, Gurgaon, Haridwar, HR-NCR, Hyderabad, Jaipur, Jalandhar, Kanpur, Kolkata, Lucknow, Ludhiana, Meerut, Mohali, Mumbai, Panchkula, Pune, UP-NCR, Vadodara,</p>
+            </section>
+        </div>
+
+        <div class="footer">
+             <div class="footer-ele">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Lead</a></li>
+                    <li><a href="#">Values</a></li>
+                </ul>
+             </div>
+             <div class="footer-ele"  >
+                <h3>For Consumers</h3>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+             </div>
+             <div class="footer-ele" >
+                <h3>For Partners</h3>
+                <ul>
+                    <li><a href="#">Express</a></li>
+                    <li><a href="#">Sellers</a></li>
+                    <li><a href="#">Spotlight</a></li>
+                    <li><a href="#">Warehouse</a></li>
+                    <li><a href="#">Deliver</a></li>
+                    <li><a href="#">Partner</a></li>
+                </ul>
+             </div>
+             <div class="footer-ele" id="element-4">
+                <h3>Follow US</h3>
+                <img src="socail-img.webp" alt="" class="social-media-icon">
+             </div>
+             <div class="footer-ele">
+                <h3>Download App</h3>
+                <a href="#"><img src="play-apple-icon.png" alt="" class="download-icon"></a>
+             </div>
+        </div>
+        <div class="footer-end">
+            <p>By continuing past this page you agree to our Terms, Cookie policy and Privacy policy. All trademarks are properties of their respective owners. © Blink Commerce Private Limited (formerly known as Grofers India Private Limited), 2016-2022</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="faq.js"></script>
+</body>
+</html>
